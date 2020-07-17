@@ -26,5 +26,21 @@ footer {
 .root {
     height: 100vh;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+}
+
+.header_nav a{
+    color:rgba(0, 0, 0, 0.87);
+    font-size:13px;
+    font-family:arial, sans-serif;
+    text-decoration: none;
+    padding-left: 15px;
+
 }
