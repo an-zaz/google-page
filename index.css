@@ -88,7 +88,190 @@ header{
 .header_apps:hover{
     opacity: .85;
 }
-   
+
+.apps{
+    height: 476px;
+    width: 316px;
+    border: 1px solid #c1c5cee6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(32, 33, 36, 0.28);
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.apps_container{
+    box-sizing: border-box;
+    width: 316px;
+    padding: 10px 0 10px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #c6c6c64a;
+}
+
+.apps_container--2{
+    border-bottom: none;
+}
+
+.app {
+    height: 84px;
+    width: 84px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
+
+}
+
+.app span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 85px;
+}
+
+.app:hover {
+    cursor: pointer;
+    background-color: #f6fafe;
+    white-space: normal;
+}
+
+.app_img {
+    height: 62px;
+    width: 64px;
+    transform: scale(calc(5/6));
+    background-image: url(./images/apps.png);
+    background-position: 0 -1449px;
+    background-repeat: no-repeat;
+}
+
+.app_img--1{
+    background-position: 0 -138px;
+}
+
+.app_img--2{
+    background-position: 0 -828px;
+}
+
+.app_img--3{
+    background-position: 0 -1311px;
+}
+
+.app_img--4{
+    background-position: 0 -207px;
+}
+
+.app_img--5{
+    background-position: 0 -483px;
+}
+
+.app_img--6{
+    background-position: 0 -2622px;
+}
+
+.app_img--7{
+    background-position: 0 -1863px;
+}
+
+.app_img--8{
+    background-position: 0 -2277px;
+}
+
+.app_img--9{
+    background-position: 0 -2553px;
+}
+
+.app_img--10{
+    background-position: 0 -1242px;
+}
+
+.app_img--11{
+    background-position: 0 -621px;
+}
+
+.app_img--12{
+    background-position: 0 -897px;
+}
+
+.app_imgs--1{
+    background-position: 0 -2208px;
+}
+
+.app_imgs--2{
+    background-position: 0 -1035px;
+}
+
+.app_imgs--3{
+    background-position: 0 -276px;
+}
+
+.app_imgs--4{
+    background-position: 0 -2139px;
+}
+
+.app_imgs--5{
+    background-position: 0 -2691px;
+}
+
+.app_imgs--6{
+    background-image: url("./images/icon_keep.png");
+    background-position: initial;
+
+}
+
+.app_imgs--7{
+    background-position: 0 -690px;
+}
+
+.app_imgs--8{
+    background-position: 0 -2760px;
+}
+
+.app_imgs--9{
+    background-position: 0 -1932px;
+}
+
+.app_imgs--10{
+    background-position: 0 -1587px;
+}
+
+.app span{
+    color: #202124;
+    font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .09px;
+    text-align: center;
+}
+
+.apps_button{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps_btn{
+    box-sizing: border-box;
+    padding: 10px 24px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #1a73e8;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    margin: 16px 0 20px 0;
+}
+
+.apps_btn:hover {
+    background-color: #f8fbff;
+    border-color: #cce0fc;
+    cursor: pointer;
+}
 .main_root{
     width: 100%;
     height: 450px;

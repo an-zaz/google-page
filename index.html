@@ -11,64 +11,178 @@
     <style type="text/css"></style>
 </head>
 <body>
-    <div class="root">
-        <header>
-            <nav class="header_nav">
-                <a href="https://www.google.com/gmail/about/#" target="_blank">Gmail</a>
-                <a href="https://www.google.by/imghp?hl=en&tab=wi&ogbl" target="_blank">Images</a>
-                <button class="header_apps"></button>
-                <button class="header_sing-in">Sign-in</button>
-            </nav>
-        </header>
-        <main>
-        	<div class="main_root">
-        		<div class="first">
-        			<figure>
-						<img class="main_img" src="./images/google.png" alt="Google" > 
-						<!-- <figcaption> <em>Фото вкуснейших сырников</em></figcaption> -->
-					</figure>
-        	    </div>
-        	    <div class="second">
-                    <div class="main_search">
-                        <div class="img_search_div">
-                            <img class="search" src="./images/search.svg" alt="search">
-                        </div>
-                        <input type="search" name="search_request">
-                        <div class="img_voice_div">
-                            <img class="voice" src="./images/mic.svg" alt="search">
-                        </div>
+<div class="root">
+    <header>
+        <nav class="header_nav">
+            <a href="https://www.google.com/gmail/about/#" target="_blank">Gmail</a>
+            <a href="https://www.google.by/imghp?hl=en&tab=wi&ogbl" target="_blank">Images</a>
+            <button class="header_apps"></button>
+            <div class="apps">
+                <style>
+                    ::-webkit-scrollbar {
+                        width: 8px;
+                    }
+
+                    ::-webkit-scrollbar-thumb {
+                        -webkit-border-radius: 10px;
+                        border-radius: 10px;
+                        background: #dadce0;
+                    }
+                </style>
+                <div class="apps_container">
+                    <div class="app">
+                        <div class="app_img"></div>
+                        <span>Account</span>
                     </div>
-                    <div class="main_btn">
-                        <button>Google Search</button>
-                        <button>I'm Feeling Lucky</button>
+                    <div class="app">
+                        <div class="app_img app_img--1"></div>
+                        <span>Search</span>
                     </div>
-        	    </div>
-        	    <div class="third">
+                    <div class="app">
+                        <div class="app_img app_img--2"></div>
+                        <span>Maps</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--3"></div>
+                        <span>YouTube</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--4"></div>
+                        <span>Play</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--5"></div>
+                        <span>Gmail</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--6"></div>
+                        <span>Meet</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--7"></div>
+                        <span>Contacts</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--8"></div>
+                        <span>Drive</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--9"></div>
+                        <span>Calendar</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--10"></div>
+                        <span>Translate</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--11"></div>
+                        <span>Photos</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_img--12"></div>
+                        <span>Duo</span>
+                    </div>
+                </div>
+                <div class="apps_container apps_container--2">
+                    <div class="app">
+                        <div class="app_img app_imgs--1"></div>
+                        <span>Docs</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--2"></div>
+                        <span>Sheets</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--3"></div>
+                        <span>Slides</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--4"></div>
+                        <span>Blogger</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--5"></div>
+                        <span>Hangouts</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--6"></div>
+                        <span>Keep</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--7"></div>
+                        <span>Jamboard</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--8"></div>
+                        <span>Earth</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--9"></div>
+                        <span>Collections</span>
+                    </div>
+                    <div class="app">
+                        <div class="app_img app_imgs--10"></div>
+                        <span>Arts and Culture</span>
+                    </div>
+                </div>
+                <div class="apps_button">
+                    <button class="apps_btn">More from Google</button>
+                </div>
+            </div>
+            <button class="header_sing-in">Sign-in</button>
+        </nav>
+    </header>
+    <main>
+        <div class="main_root">
+            <div class="first">
+                <figure>
+                    <img class="main_img" src="./images/google.png" alt="Google">
+                </figure>
+            </div>
+            <div class="second">
+                <div class="main_search">
+                    <div class="img_search_div">
+                        <img class="search" src="./images/search.svg" alt="search">
+                    </div>
+                    <input type="search" name="search_request">
+                    <div class="img_voice_div">
+                        <img class="voice" src="./images/mic.svg" alt="search" title="Search by voice">
+                    </div>
+                </div>
+                <div class="main_btn">
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+            </div>
+            <div class="third">
                     <span>Google offered in:
                        <a href="https://www.google.com/setprefs?sig=0_aBZSUiigD_Adv2RKOS0V28HvN8I%3D&hl=be&source=homepage&sa=X&ved=0ahUKEwjjk5Sd1dLqAhWjAWMBHZYFBpwQ2ZgBCA8">Беларуская </a>
                        <a href="https://www.google.com/setprefs?sig=0_aBZSUiigD_Adv2RKOS0V28HvN8I%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwjjk5Sd1dLqAhWjAWMBHZYFBpwQ2ZgBCBA">pусский</a>
                     </span>
-        	    </div>   		
-        	</div>
-        </main>
-        <footer>
-            <div class="footer_container">
-                <span>Belarus</span>
             </div>
-            <div class="footer_container footer_container--second">
-                <nav class="footer_nav">
-                    <a href="https://ads.google.com/intl/en_by/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank"> Advertising </a>
-                    <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank"> Business </a>
-                    <a href="https://about.google/?utm_source=google-BY&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank"> About </a>
-                    <a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank"> How Search works </a>
-                </nav>
-                <nav class="footer_nav">
-                    <a href="https://policies.google.com/privacy?hl=en-BY&fg=1" target="_blank"> Privacy </a>
-                    <a href="https://policies.google.com/terms?hl=en-BY&fg=1" target="_blank"> Terms </a>
-                    <a href="https://www.google.com/preferences?hl=en" target="_blank"> Settings </a>
-                </nav>
-            </div>
-        </footer>
-    </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <span>Belarus</span>
+        </div>
+        <div class="footer_container">
+            <nav class="footer_nav">
+                <a href="https://ads.google.com/intl/en_by/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+                   target="_blank"> Advertising </a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"
+                   target="_blank"> Business </a>
+                <a href="https://about.google/?utm_source=google-BY&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+                   target="_blank"> About </a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank"> How Search works </a>
+            </nav>
+            <nav class="footer_nav">
+                <a href="https://policies.google.com/privacy?hl=en-BY&fg=1" target="_blank"> Privacy </a>
+                <a href="https://policies.google.com/terms?hl=en-BY&fg=1" target="_blank"> Terms </a>
+                <a href="https://www.google.com/preferences?hl=en" target="_blank"> Settings </a>
+            </nav>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
